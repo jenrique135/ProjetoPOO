@@ -9,6 +9,6 @@ public class Conexao {
 		Class.forName("com.mysql.cj.jdbc.Driver");
 		
 		// parametros de conexao com o banco de dados
-		return DriverManager.getConnection("jdbc:mysql://localhost/clinica", "root", "%ivoid138malta");
+		return DriverManager.getConnection("jdbc:mysql://localhost/clinica", "root", "root");
 	}
 }
